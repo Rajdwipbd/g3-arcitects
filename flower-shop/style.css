@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* work sans font added   top*/
+
+/* common color  */
+.primary-color {
+    color: #727272;
+}
+
+.common-btn-color {
+    background-color: #FF900E;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+/* common color  */
+
+.nav-top {
+    max-width: 1920px;
+    background-color: #ff8f0e1f;
+}
+
+.nav-container {
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links li {
+    list-style: none;
+
+}
+
+.intro {
+    width: 84%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.intro>h1 {
+    font-size: 4rem;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.intro>p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner-img {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* header section complete   */
+
