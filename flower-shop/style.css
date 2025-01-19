@@ -22,10 +22,14 @@
 }
 
 /* common color  */
+* {
+    margin: 0;
+}
 
 .nav-top {
     max-width: 1920px;
     background-color: #ff8f0e1f;
+    padding: 20px;
 }
 
 .nav-container {
@@ -38,7 +42,7 @@
 
 .links {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .links li {
@@ -75,4 +79,48 @@
 }
 
 /* header section complete   */
+@media screen and (max-width:576px) {
 
+    .links {
+        justify-content: space-evenly;
+        padding: 10px;
+
+    }
+
+    .links:hover {
+        background-color: #FF900E;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .nav-container h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    .intro>h1 {
+        font-size: 2rem;
+        width: 100%;
+
+    }
+
+    .common-btn-color {
+        background-color: #FF900E;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+}
